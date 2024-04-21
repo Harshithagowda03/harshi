@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="vote.css">
+</head>
+<body>
+  <div class=""container">
+    <input type="text" name="" id=""name" placeholder="enter your name">
+<h2>VOTER</h2></div>
+<label for ="age">enter your Age:</label>
+<label type ="number" id="age" min="o">
+    <button onclick="validateAge()">check Eligibility</button>
+    <p id="result"></p>
+ </div>
+    
+ <script>
+  function validationAge() {
+      var age = document.getElementById("age").value;
+      var resultElement = document.getElementById("result");
+      if(age>=18){
+          resultElement.innerText= "harshi your eligible to vote".;
+                  }else {
+                      resultElement.innerText="sonu 18 agila kano.";
+                  
+                  }
+  }
+
+</script>
+</body>
+</html>

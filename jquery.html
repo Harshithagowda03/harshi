@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div>
+    <div id="div1"><p>hello</p></div>
+    <div id="div2"><p>hi</p></div>
+    <div id="div3"><p>how are yoou</p></div>
+    <button onclick="fun()">click me</button>
+    <button onclick="addShadow()">click me</button>
+    <button onclick="changeText()">click me</button>
+    <button onclick="changeOpacity()">click me</button>
+    </div>
+<style>
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        #div1{
+            margin-left: 10px;
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            border-radius: 50%;
+            border:20px solid black;
+        
+
+        }
+        #div2{
+            height: 200px;
+            width: 200px;
+            background-color: aqua;
+            border-radius: 50%;
+            border:20px dotted black;
+        
+    }
+    #div3{
+            height: 200px;
+            width: 200px;
+            background-color:red;
+            border-radius: 50%;
+            border:20px solid black;
+    }
+            </style>
+
+
+            <script>
+    function fun(){
+    $("div").css('background-color','red').fadeToggle(10000);
+    $("p").fadeToggle(1000);
+    $("#div1,#div3").css('background-color','blue');
+
+    }
+    function changeText(){
+    $("p").css({
+        'color':'green',
+        'font-size':'20px'
+    });
+    }
+function addShadow(){
+    $("div").css('box-shadow','5px 5px 5px grey');
+}
+function changeOpacity(){
+    $("div").css('opacity','0.5');
+}
+function changeBorder(){
+    $("$div").css({
+        'border-color':'red',
+        'border-width':'2px'
+    });
+}
+function animated(){
+    $("div").css({
+        height:"300px",
+        width:"500px"
+    });
+}
+
+    </script>
+</body>
+</html>

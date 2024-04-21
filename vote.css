@@ -1,0 +1,9 @@
+
+body {
+    background-image: url(img/voting.jpeg);
+    text-align: center;
+}
+div{
+    border:20px solid rebeccapurple;
+    background-color:aqua;
+}

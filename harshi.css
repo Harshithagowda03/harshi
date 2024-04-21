@@ -1,0 +1,28 @@
+img
+{
+    border-radius: 50%;
+    border: 3px solid black;
+    color: aqua;
+    background-color: black;
+}
+
+#div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+#div1{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    border: 1px solid black;
+}
+
+#div2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 1px solid black;
+}

@@ -1,0 +1,9 @@
+body {
+    background-image: url(img/harshu.jpg);
+    background-size: 100px;
+    background-repeat: repeat;
+    filter: blur(10px);
+    backdrop-filter: blur(3px)brightness(50px);
+    border: 10px solid black;
+}
+
